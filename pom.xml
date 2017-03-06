@@ -5,8 +5,21 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.javayou13131</groupId>
-    <artifactId>javaRep</artifactId>
+    <artifactId>JavaRep</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <properties>
+        <spring.version>4.0.2.RELEASE</spring.version>
+    </properties>
 
+
+    <dependencyManagement>
+      <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+      </dependencies>
+    </dependencyManagement>
 </project>
