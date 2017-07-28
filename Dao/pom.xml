@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd
+http://www.w3.org/2001/XMLSchema-instance ">
     <parent>
         <artifactId>JavaRep</artifactId>
         <groupId>com.javayou13131</groupId>
@@ -9,22 +10,13 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>Service</artifactId>
+    <artifactId>JavaRep-Dao</artifactId>
     <dependencies>
         <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-webmvc</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-core</artifactId>
-        </dependency>
-
-        <dependency>
             <groupId>com.javayou13131</groupId>
-            <artifactId>JavaRep-Dao</artifactId>
+            <artifactId>JavaRep-Domain</artifactId>
         </dependency>
     </dependencies>
+
 
 </project>
