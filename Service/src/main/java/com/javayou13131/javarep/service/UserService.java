@@ -12,7 +12,6 @@ public class UserService {
     private UserMapper userMapper;
 
     public boolean isUserMatch(String userName,String pwd){
-        //userMapper.selectByPrimaryKey();
         return false;
     }
 }
